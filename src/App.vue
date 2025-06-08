@@ -1,15 +1,16 @@
 <script setup>
-import SignForm from './components/SignForm.vue';
-
+import HelloWorld from './components/HelloWorld.vue'
+import TheWelcome from './components/TheWelcome.vue'
+import SignForm from './components/SignForm.vue'
 </script>
 
 <template>
   <header>
-   
+    
   </header>
 
   <main>
-   <SignForm></SignForm>
+    <router-view></router-view>
   </main>
   <footer>
     
